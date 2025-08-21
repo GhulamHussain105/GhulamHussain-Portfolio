@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ghulam Hussain - Portfolio</title>
   <link rel="stylesheet" href="select.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
@@ -21,82 +23,167 @@
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="about-container">
-      <img src="profile.jpg" alt="Profile Picture of Ghulam Hussain">
+  <!-- About Section -->
+  <section id="about" class="intro-card">
+    <img src="profile.jpg" class="profile-inline" alt="Ghulam Hussain Profile Picture" />
+    <div class="intro-text">
       <p>
-        I am Ghulam Hussain, a passionate Computer Science student with skills in C++, Python, HTML, CSS, JavaScript, and SQL Server.  
-        Currently diving into the world of AI and Machine Learning. This portfolio showcases my journey, projects, and growth as a developer.
+        I'm a Computer Science student passionate about web development and modern tech trends.
+        Skilled in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Python (Tkinter)</strong>, and <strong>SQL Server</strong>.
+        Currently exploring <strong>AI tools</strong> and platforms like GitHub and Copilot.
       </p>
+      <a href="Ghulam_Hussain_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn-cv">📄 View Resume</a>
     </div>
   </section>
 
-  <!-- Skills -->
- <section id="skills">
-  <h2>Skills</h2>
-  <ul class="skills-list">
-    <!-- Programming Languages -->
-    <li><strong>Programming:</strong> C++, Python (Tkinter GUI), HTML, CSS, JavaScript</li>
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>💡 Skills</h2>
+    <div class="skills-boxes">
+      <div class="skill-section">
+        <h3>💻 Programming Languages</h3>
+        <ul>
+          <li>C++</li>
+          <li>Python (Tkinter)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="skill-section">
+        <h3>🛠️ Tools & Technologies</h3>
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Visual Studio Code</li>
+          <li>SQL Server</li>
+          <li>MS Office</li>
+        </ul>
+      </div>
+      <div class="skill-section">
+        <h3>🤖 AI & Automation</h3>
+        <ul>
+          <li>Prompt Engineering</li>
+          <li>Microsoft Copilot</li>
+          <li>GitHub Copilot</li>
+          <li>Generative AI</li>
+        </ul>
+      </div>
+      <div class="skill-section">
+        <h3>🗣️ Soft Skills</h3>
+        <ul>
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Public Speaking</li>
+          <li>Customer Service</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <!-- AI & Tools -->
-    <li><strong>AI & Tools:</strong> Generative AI, Microsoft Copilot, Prompt Engineering</li>
-
-    <!-- Database -->
-    <li><strong>Database:</strong> SQL Server (Database Management)</li>
-
-    <!-- Version Control -->
-    <li><strong>Tools:</strong> Git & GitHub, MS Office</li>
-
-    <!-- Soft Skills -->
-    <li><strong>Soft Skills:</strong> Communication, Teamwork, Public Speaking, Customer Service</li>
-  </ul>
-</section>
-
-
-  <!-- Projects -->
+  <!-- Projects Section -->
   <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Quiz Game</h3>
-      <p>A fun C++ project using control structures and loops to create a question-based quiz.</p>
-    </div>
-    <div class="project">
-      <h3>Hospital Reception System</h3>
-      <p>Patient management system with GUI in Python using Tkinter and SQL Server for database operations.</p>
-    </div>
-    <div class="project">
-      <h3>E-Commerce System</h3>
-      <p>Console-based C++ system to simulate product listings, order management, and billing logic.</p>
-    </div>
-    <div class="project">
-      <h3>Mini Games Pack</h3>
-      <p>A pack of three games developed during my Programming Fundamentals course using C++.</p>
-    </div>
-    <div class="project">
-      <h3>AI Copilot Course Projects</h3>
-      <p>Learning to build web and AI-integrated projects using Microsoft Copilot and GitHub.</p>
+    <h2>🚀 Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>🧩 Quiz Game</h3>
+        <p>C++ based question-answer game using control structures.</p>
+      </div>
+      <div class="project-card">
+        <h3>🏥 Hospital Reception System</h3>
+        <p>Python Tkinter GUI system connected with SQL Server database.</p>
+      </div>
+      <div class="project-card">
+        <h3>🛒 E-Commerce System</h3>
+        <p>Console C++ simulation of online store functionality.</p>
+      </div>
+      <div class="project-card">
+        <h3>🎮 Mini Games Pack</h3>
+        <p>3 basic C++ games made during Programming Fundamentals course.</p>
+      </div>
+      <div class="project-card">
+        <h3>🤖 AI Copilot Course Projects</h3>
+        <p>Projects showcasing prompt engineering using GitHub Copilot.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>📞 Contact Me</h2>
-    <div class="contact-box">
-      <p><strong>Email:</strong> <a href="mailto:hussanghulam773@gmail.com">hussanghulam773@gmail.com</a></p>
-      <p><strong>Phone:</strong> <a href="tel:+923265599990">0326-5599990</a></p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/GhulamHussain105" target="_blank">GhulamHussain105</a></p>
-      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ghulam-hussain-2a560533b" target="_blank">ghulam-hussain-2a560533b</a></p>
-
-      <a href="Ghulam_Hussain_CV.pdf" download class="btn-cv">📄 Download My CV</a>
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2>📜 Certifications</h2>
+    <div class="cert-boxes">
+      <div class="cert-card">
+        <h3>🤖 Generative AI</h3>
+        <p>Microsoft Copilot & LinkedIn</p>
+        <a href="certificates/Generative Ai.pdf" target="_blank">🔍 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>💼 MS Office Certificate</h3>
+        <p>IPL Technical College</p>
+        <a href="certificates/MS2.pdf" target="_blank">🔍 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>🐍 Python Crash Course</h3>
+        <p>Google & Coursera</p>
+        <a href="certificates/Python Crash Course.pdf" target="_blank">🔍 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>🎓 Teaching Certificate</h3>
+        <p>The New Life School System</p>
+        <a href="certificates/Teaching Certificate.pdf" target="_blank">🔍 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>🌐 Web Development</h3>
+        <p>Microsoft & Coursera</p>
+        <a href="certificates/Web Development.pdf" target="_blank">🔍 View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <h3>🧠 Google Ai Essentials</h3>
+        <p>Google Career Certificates</p>
+        <a href="certificates/Google Ai Essentials.pdf" target="_blank">🔍 View Certificate</a>
+      </div>
     </div>
   </section>
+
+ <section id="contact">
+  <h2>📞 Contact Me</h2>
+  <div class="contact-box">
+
+    <!-- Contact Icons -->
+    <div class="contact-icons">
+      <a href="mailto:hussanghulam773@gmail.com" class="icon-link" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="tel:+923265599990" class="icon-link" title="Phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="https://github.com/GhulamHussain105" class="icon-link" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ghulam-hussain-2a560533b" class="icon-link" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com/share/1J3NTqv1Ex/" class="icon-link" target="_blank" title="Facebook">
+  <i class="fab fa-facebook"></i>
+</a>
+
+    </div>
+
+    <!-- Contact Text -->
+    <p><strong>Email:</strong> <a href="mailto:hussanghulam773@gmail.com">hussanghulam773@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+923265599990">0326-5599990</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/GhulamHussain105" target="_blank">GhulamHussain105</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ghulam-hussain-2a560533b" target="_blank">ghulam-hussain-2a560533b</a></p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1J3NTqv1Ex/" target="_blank">facebook.com/ghulam.hussain</a></p>
+
+  </div>
+</section>
 
   <!-- Footer -->
   <footer>
