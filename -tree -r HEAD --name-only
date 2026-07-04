@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghulam Hussain - Portfolio</title>
+  <link rel="stylesheet" href="select.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header --> 
+  <header>
+    <div class="hero">
+      <h1>👋 I'm <span class="highlight-name">Ghulam Hussain</span></h1>
+      <p class="tagline">Student • Web Developer • Tech Enthusiast</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="intro-card">
+    <img src="profile.jpg" class="profile-inline" alt="Ghulam Hussain Profile Picture" />
+    <div class="intro-text">
+      <p>
+        I'm a Computer Science student passionate about web development and modern tech trends.
+        Skilled in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Python (Tkinter)</strong>, and <strong>SQL Server</strong>.
+        Enjoying turning ideas into practical projects while constantly learning new technologies.
+      </p>
+      <a href="Ghulam_Hussain_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn-cv">📄 View Resume</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>💡 Skills</h2>
+    <div class="skills-boxes">
+      <div class="skill-section">
+        <h3>💻 Programming Languages</h3>
+        <ul>
+          <li>C++</li>
+          <li>Python (Tkinter)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="skill-section">
+        <h3>🛠️ Tools & Technologies</h3>
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Visual Studio Code</li>
+          <li>SQL Server</li>
+          <li>MS Office</li>
+        </ul>
+      </div>
+      <div class="skill-section">
+        <h3>🤖 AI & Automation</h3>
+        <ul>
+          <li>Prompt Engineering</li>
+          <li>Microsoft Copilot</li>
+          <li>GitHub Copilot</li>
+          <li>Generative AI</li>
+        </ul>
+      </div>
+      <div class="skill-section">
+        <h3>🗣️ Soft Skills</h3>
+        <ul>
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Public Speaking</li>
+          <li>Customer Service</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>🚀 Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>🧩 Quiz Game</h3>
+        <p>C++ based question-answer game using control structures.</p>
+      </div>
+      <div class="project-card">
+        <h3>🏥 Hospital Reception System</h3>
+        <p>Python Tkinter GUI system connected with SQL Server database.</p>
+      </div>
+      <div class="project-card">
+        <h3>🌐 Portfolio Website</h3>
+        <p>Responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>🛒 E-Commerce System</h3>
+        <p>Console C++ simulation of online store functionality.</p>
+      </div>
+      <div class="project-card">
+        <h3>🎮 Mini Games Pack</h3>
+        <p>3 basic C++ games made during Programming Fundamentals course.</p>
+      </div>
+      <div class="project-card">
+        <h3>🤖 AI Copilot Course Projects</h3>
+        <p>Projects showcasing prompt engineering using GitHub Copilot.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+  <h2>📜 Certifications</h2>
+  <div class="cert-boxes">
+    <div class="cert-card">
+      <h3>🤖 Generative AI</h3>
+      <p>Microsoft Copilot & LinkedIn</p>
+      <a href="Generative Ai.pdf" target="_blank">🔍 View Certificate</a>
+    </div>
+    <div class="cert-card">
+      <h3>🐍 Python Crash Course</h3>
+      <p>Google & Coursera</p>
+      <a href="Python Crash Course.pdf" target="_blank">🔍 View Certificate</a>
+    </div>
+    
+    <div class="cert-card">
+      <h3>🌐 Web Development</h3>
+      <p>Microsoft & Coursera</p>
+      <a href="Web Development.pdf" target="_blank">🔍 View Certificate</a>
+    </div>
+    <div class="cert-card">
+      <h3>🧠 Google Ai Essentials</h3>
+      <p>Google Career Certificates</p>
+      <a href="Google Ai Essentials.pdf" target="_blank">🔍 View Certificate</a>
+    </div>
+    <div class="cert-card">
+      <h3>🔍 Google Data Analyst</h3>
+      <p>Coursera and Google</p>
+      <a href="Google Data Analytics.pdf" target="_blank">🔍 View Certificate</a>
+    </div>
+    <div class="cert-card">
+      <h3>💼 MS Office Certificate</h3>
+      <p>IPL Technical College</p>
+      <a href="MS2.pdf" target="_blank">🔍 View Certificate</a>
+    </div>
+  </div>
+</section>
+
+ <section id="contact">
+  <h2>📞 Contact Me</h2>
+  <div class="contact-box">
+
+    <!-- Contact Icons -->
+    <div class="contact-icons">
+      <a href="mailto:hussanghulam773@gmail.com" class="icon-link" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="tel:+923265599990" class="icon-link" title="Phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="https://github.com/GhulamHussain105" class="icon-link" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ghulam-hussain-2a560533b" class="icon-link" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com/share/1J3NTqv1Ex/" class="icon-link" target="_blank" title="Facebook">
+  <i class="fab fa-facebook"></i>
+</a>
+
+    </div>
+
+    <!-- Contact Text -->
+    <p><strong>Email:</strong> <a href="mailto:hussanghulam773@gmail.com">hussanghulam773@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+923265599990">0326-5599990</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/GhulamHussain105" target="_blank">GhulamHussain105</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ghulam-hussain-2a560533b" target="_blank">ghulam-hussain-2a560533b</a></p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1J3NTqv1Ex/" target="_blank">facebook.com/ghulam.hussain</a></p>
+
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ghulam Hussain.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
